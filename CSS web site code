@@ -28,6 +28,8 @@ animation-iteration-count:300;
 -webkit-animation-iteration-count:300; /* Safari and Chrome */
 -o-animation:myfirst 5s; 
 -o-animation-iteration-count:300;/* Opera */
+-ms-animation:myfirst 5s; 
+-ms-animation-iteration-count:300;/* Ie */
 }
 
 keyframes myfirst 
@@ -63,7 +65,17 @@ keyframes myfirst
 }
 
 @-o-keyframes myfirst/* Opera */
+
+{
+0%   {left:-100px; }
+10%   {left:-63px; }
+15%  {left: 20px;top:0px;}
+20%  {left: 20px;}
+50%  {left: 80px;}
+100% {left:2800px;}
 }
+
+@-ms-keyframes myfirst/* Ie */
 {
 0%   {left:-100px; }
 10%   {left:-63px; }

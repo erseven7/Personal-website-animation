@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style> 
+body{
+	background-image:url(images/4.jpg);
+	margin-top:0px;
+    margin-left:0px;
+    background-repeat:no-repeat;
+    background-size:100%;
+    
+}
+
+
+
+
+#png4
+{
+padding-top: 1220px;
+padding-left:60px;
+position:relative;
+animation:myfirst 5s;
+animation-iteration-count:300;
+-moz-animation:myfirst 5s;
+-moz-animation-iteration-count:300; /* Firefox */
+-webkit-animation:myfirst 5s;
+-webkit-animation-iteration-count:300; /* Safari and Chrome */
+-o-animation:myfirst 5s; 
+-o-animation-iteration-count:300;/* Opera */
+}
+
+keyframes myfirst 
+{
+0%   {left:-100px; }
+10%   {left:-63px; }
+15%  {left: 20px;top:0px;}
+20%  {left: 20px;}
+50%  {left: 80px;}
+100% {left:2800px;}
+}
+
+
+@-moz-keyframes myfirst/* Firefox */
+{
+0%   {left:-100px; }
+10%   {left:-63px; }
+15%  {left: 20px;top:0px;}
+20%  {left: 20px;}
+50%  {left: 80px;}
+100% {left:2800px;}
+}
+
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {left:-100px; }
+10%   {left:-63px; }
+15%  {left: 20px;top:0px;}
+20%  {left: 20px;}
+50%  {left: 80px;}
+100% {left:2800px;}
+}
+
+@-o-keyframes myfirst/* Opera */
+}
+{
+0%   {left:-100px; }
+10%   {left:-63px; }
+15%  {left: 20px;top:0px;}
+20%  {left: 20px;}
+50%  {left: 80px;}
+100% {left:2800px;}
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div id="png4">
+<img src="images/4.png">
+
+</div>
+</body>
+</html>

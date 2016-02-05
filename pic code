@@ -1,0 +1,73 @@
+
+
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>图片部分</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<article class="htmleaf-container">
+			<header class="htmleaf-header">
+				
+			<!--<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/"  target="_blank"><span> </span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/jQuery/Image-Effects/201509112559.html" 
+			</div>-->
+		</header>
+		<!-- different container with differen child images -->
+		
+		<span class="container3"><img src="pics/3.jpg" alt=""></span>
+		<span class="container4"><img src="pics/4.jpg" alt=""></span>
+		
+
+		
+
+		
+	</article>
+	
+	
+	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+	<script src="src/ns.hover.min.js"></script>
+	<script>
+		window.onload = function(){
+			$.noConflict();
+			jQuery(document).ready(function($){
+
+				$('.container3').nsHover({
+					bgcolor: '#fd5a5d',
+					bganim : 'fade',
+					bgpic: '',
+					bgopacity : 0.8,
+					content: '<div class="content">Click HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick Here</div>'
+
+				});
+
+
+				$('.container4').nsHover({
+					bgcolor: '#ed2f7b',
+					bganim : 'fade',
+					bgpic: '',
+					bgopacity : 0.85,
+					content: '<div class="content">Click HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick Here</div>'
+					
+				});
+
+				
+
+				
+
+			});
+		}
+	</script>
+</body>
+</html>

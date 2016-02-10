@@ -7,7 +7,7 @@
 		body
 		{
 			background-image:url(images/4.jpg);
-			margin-top:0px;
+			margin-top:2px;
 			margin-left:0px;
 			background-repeat:no-repeat;
 			background-size:100%;

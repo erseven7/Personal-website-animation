@@ -60,7 +60,7 @@
 					bgopacity : 0.85,
 					content: '<div class="content">Click HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick HereClick Here</div>'
 					
-				});
+			  	});
 
 				
 

@@ -1,0 +1,289 @@
+#fx1{
+	padding-top:-20px;
+	padding-left:532px;
+	position:relative;
+	animation:fx1 5s;
+	-moz-animation:fx1 5s;
+   -moz-animation-iteration-count:3000; /* Firefox */
+   -webkit-animation:fx1 5s;
+	-webkit-animation-iteration-count:3000; /* Safari and Chrome */
+	-o-animation:fx1 5s;
+	-o-animation-iteration-count:3000;/* Opera */
+	-ms-animation:fx1 5s;
+	-ms-animation-iteration-count:3000;/* Ie */
+}
+
+@-moz-keyframes fx1/* Safari and Chrome */
+{
+	0%,
+	100%{
+		-moz-transform:translate(-5px,-10px) rotate(2deg);
+		        transform:translate(-5px,-10px) rotate(2deg);
+	}
+	50%{
+		-moz-transform:translate(6px,3px) rotate(-2deg);
+		        transform:translate(6px,3px) rotate(-2deg);
+	}
+}
+
+@-webkit-keyframes fx1/* Safari and Chrome */
+{
+	0%,
+	100%{
+		-webkit-transform:translate(-5px,-10px) rotate(2deg);
+		        transform:translate(-5px,-10px) rotate(2deg);
+	}
+	50%{
+		-webkit-transform:translate(6px,3px) rotate(-2deg);
+		        transform:translate(6px,3px) rotate(-2deg);
+	}
+}
+@-o-keyframes fx1/* Safari and Chrome */
+{
+	0%,
+	100%{
+		-o-transform:translate(-5px,-10px) rotate(2deg);
+		        transform:translate(-5px,-10px) rotate(2deg);
+	}
+	50%{
+		-o-transform:translate(6px,3px) rotate(-2deg);
+		        transform:translate(6px,3px) rotate(-2deg);
+	}
+}
+@-ms-keyframes fx1/* Safari and Chrome */
+{
+	0%,
+	100%{
+		-ms-transform:translate(-5px,-10px) rotate(2deg);
+		        transform:translate(-5px,-10px) rotate(2deg);
+	}
+	50%{
+		-ms-transform:translate(6px,3px) rotate(-2deg);
+		        transform:translate(6px,3px) rotate(-2deg);
+	}
+}
+
+#fx2{
+	top:-70px;
+	padding-left:730px;
+	position:relative;
+	animation:fx2 5s;
+	-moz-animation:fx1 5s;
+   -moz-animation-iteration-count:3000; /* Firefox */
+   -webkit-animation:fx2 5s;
+	-webkit-animation-iteration-count:3000; /* Safari and Chrome */
+	-o-animation:fx2 5s;
+	-o-animation-iteration-count:3000;/* Opera */
+	-ms-animation:fx2 5s;
+	-ms-animation-iteration-count:3000;/* Ie */
+}
+
+#fx3{
+	top:-340px;
+	padding-left:1770px;
+	position:relative;
+	animation:fx2 5s;
+	-moz-animation:fx1 5s;
+   -moz-animation-iteration-count:3000; /* Firefox */
+   -webkit-animation:fx2 5s;
+	-webkit-animation-iteration-count:3000; /* Safari and Chrome */
+	-o-animation:fx2 5s;
+	-o-animation-iteration-count:3000;/* Opera */
+	-ms-animation:fx2 5s;
+	-ms-animation-iteration-count:3000;/* Ie */
+}
+
+#fx4{
+	top:-578px;
+	padding-left:182px;
+	position:relative;
+	animation:fx2 5s;
+	-moz-animation:fx1 5s;
+   -moz-animation-iteration-count:3000; /* Firefox */
+   -webkit-animation:fx2 5s;
+	-webkit-animation-iteration-count:3000; /* Safari and Chrome */
+	-o-animation:fx2 5s;
+	-o-animation-iteration-count:3000;/* Opera */
+	-ms-animation:fx2 5s;
+	-ms-animation-iteration-count:3000;/* Ie */
+}
+
+
+
+
+@-moz-keyframes fx2/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		     }
+	100%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		        
+        }
+	50%{
+		-webkit-transform:translate(-5px,3px);
+		        transform:translate(-5px,3px);
+		       
+	}
+	
+}
+
+@-webkit-keyframes fx2/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		     }
+	100%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+
+        }
+	50%{
+		-webkit-transform:translate(-5px,3px);
+		        transform:translate(-5px,3px);
+		      
+	}
+}
+@-o-keyframes fx2/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		     }
+	100%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		        
+        }
+	50%{
+		-webkit-transform:translate(-5px,3px);
+		        transform:translate(-5px,3px);
+		       
+	}
+}
+@-ms-keyframes fx2/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		     }
+	100%{
+		-webkit-transform:translate(-5px,-3px);
+		        transform:translate(-5px,-3px);
+		        
+        }
+	50%{
+		-webkit-transform:translate(-5px,3px);
+		        transform:translate(-5px,3px);
+		       
+	}
+}
+
+
+#fx5{
+	top:-930px;
+	padding-left:1370px;
+	position:relative;
+	animation:fx5 6s;
+	animation-delay: 6s; 
+	-moz-animation:fx5 6s;
+   -moz-animation-iteration-count:3000; /* Firefox */
+   
+   -webkit-animation:fx5 6s;
+	-webkit-animation-iteration-count:3000; /* Safari and Chrome */
+	-o-animation:fx5 6s;
+	-o-animation-iteration-count:3000;/* Opera */
+	-ms-animation:fx5 6s;
+	-ms-animation-iteration-count:3000;/* Ie */
+}
+
+
+@-moz-keyframes fx5/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	8%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	50%{
+		-webkit-transform:translateY(-10px) rotate(-5deg);
+		        transform:translateY(-10px) rotate(-5deg);
+	}
+	100%{
+		-webkit-transform:translateY(0) rotate(-10deg);
+		        transform:translateY(0) rotate(-10deg);
+		        opacity:0.2;
+	}
+
+}
+
+@-webkit-keyframes fx5/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	8%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	50%{
+		-webkit-transform:translateY(-10px) rotate(-5deg);
+		        transform:translateY(-10px) rotate(-5deg);
+	}
+	100%{
+		-webkit-transform:translateY(0) rotate(-20deg);
+		        transform:translateY(0) rotate(-20deg);
+		        opacity:0.2;
+	}
+
+}
+@-o-keyframes fx5/* Safari and Chrome */
+{
+	0%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	8%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	50%{
+		-webkit-transform:translateY(-10px) rotate(-5deg);
+		        transform:translateY(-10px) rotate(-5deg);
+	}
+	100%{
+		-webkit-transform:translateY(0) rotate(-10deg);
+		        transform:translateY(0) rotate(-10deg);
+		        opacity:0.2;
+	}
+
+}
+
+@-ms-keyframes fx5/* Safari and Chrome */
+{0%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	8%{
+		-webkit-transform:translateY(0) rotate(0);
+		        transform:translateY(0) rotate(0);
+	}
+	50%{
+		-webkit-transform:translateY(-10px) rotate(-5deg);
+		        transform:translateY(-10px) rotate(-5deg);
+	}
+	100%{
+		-webkit-transform:translateY(0) rotate(-10deg);
+		        transform:translateY(0) rotate(-10deg);
+		        opacity:0.2;
+	}
+
+}
+
